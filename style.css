@@ -1,0 +1,202 @@
+body {background-color: #1e3f36}
+hr {color: #fff; height: 2px; size: 2px; width: 500px}
+* {color: #fff}
+
+.clear{height: 1px; overflow: hidden; clear: left}
+
+.eq {width: 24px; height: 24px; margin-top: 22px; text-align: center; float: left}
+    .eq.level1 {background: url(img/level.1.png)}
+    .eq.level2 {background: url(img/level.2.png)}
+
+.item {width: 68px; height: 68px; background: url(img/background.png); float: left; position: relative}
+    .item b, .item s, .item i {display: block; text-decoration: none}
+    .item s, .item i {width: 24px; position: absolute; text-align: center}
+    .item b {width: 68px; height: 68px; background-repeat: no-repeat !important}
+    .item s {top: 3px; right: 3px; height: 24px; border-radius: 12px; background-color: rgba(0, 0, 0, 0.7); color: #fff; font-size: 18px}
+    .item i {bottom: -5px; right: -7px; height: 33px}
+        .item.instrument i {background: url(img/instrument.png)}
+        .item.svet i {background: url(img/svet.png)}
+        .item.surv i {background: url(img/surv.png)}
+        .item.eda i {background: url(img/eda.png)}
+        .item.material i {background: url(img/material.png)}
+        .item.odejda i {background: url(img/odejda.png)}
+        .item.nauka i {background: url(img/nauka.png)}
+        .item.orujie i {background: url(img/orujie.png)}
+        .item.constr i {background: url(img/constr.png)}
+        .item.magiya i {background: url(img/magiya.png)}
+
+    /* instrument */
+    .item.topor b {background: url(img2/instrument.png) 0 0 no-repeat}
+    .item.kirka b {background: url(img2/instrument.png) -66px 0 no-repeat}
+    .item.lopata b {background: url(img2/instrument.png) -134px 0 no-repeat}
+    .item.vili b {background: url(img2/instrument.png) -200px 0 no-repeat}
+    .item.molot b {background: url(img2/instrument.png) -263px 0 no-repeat}
+    .item.britva b {background: url(img2/instrument.png) -328px 0 no-repeat}
+    .item.topor2 b {background: url(img2/instrument.png) -394px 0 no-repeat}
+    .item.kirka2 b {background: url(img2/instrument.png) -460px 0 no-repeat}
+    .item.lopata2 b {background: url(img2/instrument.png) -530px 0 no-repeat}
+
+    /* svet */
+    .item.koster b {background: url(img/svet.koster.png)}
+    .item.koster2 b {background: url(img/svet.koster2.png)}
+    .item.fakel b {background: url(img/svet.fakel.png)}
+    .item.djek b {background: url(img/svet.djek.png)}
+    .item.kaska b {background: url(img/svet.kaska.png)}
+    .item.fonar b {background: url(img/svet.fonar.png)}
+
+    /* surv */
+    .item.spalnik b {background: url(img/surv.spalnik.png)}
+    .item.palatka b {background: url(img/surv.palatka.png)}
+    .item.rukzak b {background: url(img/surv.rukzak.png)}
+    .item.sachok b {background: url(img/surv.sachok.png)}
+    .item.udochka b {background: url(img/surv.udochka.png)}
+    .item.lovushka b {background: url(img/surv.lovushka.png)}
+    .item.lovushka2 b {background: url(img/surv.lovushka2.png)}
+    .item.maz b {background: url(img/surv.maz.png)}
+    .item.zont b {background: url(img/surv.zont.png)}
+    .item.bint b {background: url(img/surv.bint.png)}
+    .item.meshok b {background: url(img/surv.meshok.png)}
+    .item.kamen_grelka b {background: url(img/surv.kamen_grelka.png)}
+    .item.spalnik2 b {background: url(img/surv.spalnik2.png)}
+    .item.kompas b {background: url(img/surv.kompas.png)}
+
+    /* eda */
+    .item.holod b {background: url(img/eda.holod.png)}
+    .item.gryadka b {background: url(img/eda.gryadka.png)}
+    .item.gryadka2 b {background: url(img/eda.gryadka2.png)}
+    .item.kazan b {background: url(img/eda.kazan.png)}
+    .item.ulei b {background: url(img/eda.ulei.png)}
+    .item.sushilka b {background: url(img/eda.sushilka.png)}
+    /* +other */
+    .item.tikva b {background: url(img/eda.tikva.png)}
+    .item.lampa b {background: url(img/eda.lampa.png)}
+    .item.med b {background: url(img/eda.med.png)}
+    .item.yagoda b {background: url(img/eda.yagoda.png)}
+    .item.yagoda2 b {background: url(img/eda.yagoda2.png)}
+    .item.semena b {background: url(img/eda.semena.png)}
+    .item.lepestki b {background: url(img/eda.lepestki.png)}
+    .item.lepestki_t b {background: url(img/eda.lepestki_t.png)}
+    .item.listva b {background: url(img/eda.listva.png)}
+    .item.myaso_gotovoe b {background: url(img/eda.myaso_gotovoe.png)}
+    .item.mandragora b {background: url(img/eda.mandragora.png)}
+    .item.krilo_m b {background: url(img/eda.krilo_m.png)}
+    .item.riba b {background: url(img/eda.riba.png)}
+
+    /* nauka */
+    .item.mashina1 b {background: url(img/nauka.mashina1.png)}
+    .item.mashina2 b {background: url(img/nauka.mashina2.png)}
+    .item.zimometr b {background: url(img/nauka.zimometr.png)}
+    .item.dojdemetr b {background: url(img/nauka.dojdemetr.png)}
+    .item.poroh b {background: url(img/nauka.poroh.png)}
+    .item.gromootvod b {background: url(img/nauka.gromootvod.png)}
+    .item.poisk b {background: url(img/nauka.poisk.png)}
+
+    /* orujie */
+    .item.kope b {background: url(img/orujie.kope.png)}
+    .item.bita b {background: url(img/orujie.bita.png)}
+    .item.bronya_trava b {background: url(img/orujie.bronya_trava.png)}
+    .item.bronya_derevo b {background: url(img/orujie.bronya_derevo.png)}
+    .item.bronya_mramor b {background: url(img/orujie.bronya_mramor.png)}
+    .item.shlem b {background: url(img/orujie.shlem.png)}
+    .item.drotik b {background: url(img/orujie.drotik.png)}
+    .item.drotik_son b {background: url(img/orujie.drotik_son.png)}
+    .item.drotik_ogon b {background: url(img/orujie.drotik_ogon.png)}
+    .item.bumerang b {background: url(img/orujie.bumerang.png)}
+    .item.mina b {background: url(img/orujie.mina.png)}
+    .item.lovushka_klik b {background: url(img/orujie.lovushka_klik.png)}
+
+    /* constr */
+    .item.brust b {background: url(img/constr.brust.png)}
+    .item.stena_trava b {background: url(img/constr.stena_trava.png)}
+    .item.stena_derevo b {background: url(img/constr.stena_derevo.png)}
+    .item.stena_kamen b {background: url(img/constr.stena_kamen.png)}
+    .item.dom_s b {background: url(img/constr.dom_s.png)}
+    .item.dom_z b {background: url(img/constr.dom_z.png)}
+    .item.kover b {background: url(img/constr.kover.png)}
+    .item.parket b {background: url(img/constr.parket.png)}
+    .item.kletka b {background: url(img/constr.kletka.png)}
+    .item.sunduk b {background: url(img/constr.sunduk.png)}
+    .item.tablichka b {background: url(img/constr.tablichka.png)}
+    .item.sh_pol b {background: url(img/constr.sh_pol.png)}
+    .item.paporotnik b {background: url(img/constr.paporotnik.png)}
+
+    /* material */
+    .item.verevka b {background: url(img/material.verevka.png)}
+    .item.doski b {background: url(img/material.doski.png)}
+    .item.blok b {background: url(img/material.blok.png)}
+    .item.papirus b {background: url(img/material.papirus.png)}
+    .item.ujas b {background: url(img/material.ujas.png)}
+    .item.ametist b {background: url(img/material.ametist.png)}
+
+    /* magiya */
+    .item.amulet_jiv b {background: url(img/magiya.amulet_jiv.png)}
+    .item.amulet_koshmar b {background: url(img/magiya.amulet_koshmar.png)}
+    .item.amulet_led b {background: url(img/magiya.amulet_led.png)}
+    .item.bita_mish b {background: url(img/magiya.bita_mish.png)}
+    .item.bronya_nochi b {background: url(img/magiya.bronya_nochi.png)}
+    .item.chuchelo b {background: url(img/magiya.chuchelo.png)}
+    .item.fleita b {background: url(img/magiya.fleita.png)}
+    .item.mech b {background: url(img/magiya.mech.png)}
+    .item.ogon_nochi b {background: url(img/magiya.ogon_nochi.png)}
+    .item.orkestr b {background: url(img/magiya.orkestr.png)}
+    .item.posoh_led b {background: url(img/magiya.posoh_led.png)}
+    .item.posoh_ogon b {background: url(img/magiya.posoh_ogon.png)}
+    .item.posoh_tele b {background: url(img/magiya.posoh_tele.png)}
+    .item.poyas_goloda b {background: url(img/magiya.poyas_goloda.png)}
+    .item.shlyapusnik b {background: url(img/magiya.shlyapusnik.png)}
+    .item.telecentr b {background: url(img/magiya.telecentr.png)}
+    .item.ten_manip b {background: url(img/magiya.ten_manip.png)}
+
+    /* resurs */
+    .item.vetka b {background: url(img/resurs.vetka.png)}
+    .item.vetka2 b {background: url(img/resurs.vetka2.png)}
+    .item.kremen b {background: url(img/resurs.kremen.png)}
+    .item.kamen b {background: url(img/resurs.kamen.png)}
+    .item.zoloto b {background: url(img/resurs.zoloto.png)}
+    .item.trava b {background: url(img/resurs.trava.png)}
+    .item.trava2 b {background: url(img/resurs.trava2.png)}
+    .item.brevno b {background: url(img/resurs.brevno.png)}
+    .item.brevno_jivoe b {background: url(img/resurs.brevno_jivoe.png)}
+    .item.pautina b {background: url(img/resurs.pautina.png)}
+    .item.pepel b {background: url(img/resurs.pepel.png)}
+    .item.glanda b {background: url(img/resurs.glanda.png)}
+    .item.shkura_svini b {background: url(img/resurs.shkura_svini.png)}
+    .item.shkura_proglota b {background: url(img/resurs.shkura_proglota.png)}
+    .item.shesterni b {background: url(img/resurs.shesterni.png)}
+    .item.navoz b {background: url(img/resurs.navoz.png)}
+    .item.ugol b {background: url(img/resurs.ugol.png)}
+    .item.selitra b {background: url(img/resurs.selitra.png)}
+    .item.sherst_z b {background: url(img/resurs.sherst_z.png)}
+    .item.sherst_b b {background: url(img/resurs.sherst_b.png)}
+    .item.yaico_t b {background: url(img/resurs.yaico_t.png)}
+    .item.myaso b {background: url(img/resurs.myaso.png)}
+    .item.mramor b {background: url(img/resurs.mramor.png)}
+    .item.kamish b {background: url(img/resurs.kamish.png)}
+    .item.klik b {background: url(img/resurs.klik.png)}
+    .item.pero_l b {background: url(img/resurs.pero_l.png)}
+    .item.pero_g b {background: url(img/resurs.pero_g.png)}
+    .item.pero_a b {background: url(img/resurs.pero_a.png)}
+    .item.jalo b {background: url(img/resurs.jalo.png)}
+    .item.morkov b {background: url(img/resurs.morkov.png)}
+    .item.dern_skala b {background: url(img/resurs.dern_skala.png)}
+    .item.pancir_razb b {background: url(img/resurs.pancir_razb.png)}
+    .item.rubin b {background: url(img/resurs.rubin.png)}
+    .item.sapfir b {background: url(img/resurs.sapfir.png)}
+    .item.klok_borodi b {background: url(img/resurs.klok_borodi.png)}
+    .item.shishka b {background: url(img/resurs.shishka.png)}
+
+    /* monstr */
+    .item.svetl b {background: url(img/monstr.svetl.png)}
+    .item.pchela b {background: url(img/monstr.pchela.png)}
+    .item.krolik b {background: url(img/monstr.krolik.png)}
+
+    /* odejda */
+    .item.venok b {background: url(img/odejda.venok.png)}
+    .item.shlyapa_soloma b {background: url(img/odejda.shlyapa_soloma.png)}
+    .item.shlyapa_pchelovoda b {background: url(img/odejda.shlyapa_pchelovoda.png)}
+    .item.cilindr b {background: url(img/odejda.cilindr.png)}
+    .item.naushniki b {background: url(img/odejda.naushniki.png)}
+
+    /* magiya */
+    .item.posoh_ogon b {background: url(img/magiya.posoh_ogon.png)}
+    .item.posoh_led b {background: url(img/magiya.posoh_led.png)}
